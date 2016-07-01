@@ -19,7 +19,7 @@ import org.springside.modules.utils.Clock;
 @Service
 public class BookAdminService {
 
-	private static Logger logger = LoggerFactory.getLogger(BookBorrowService.class);
+	private static Logger logger = LoggerFactory.getLogger(BookAdminService.class);
 
 	@Autowired
 	private BookDao bookDao;
